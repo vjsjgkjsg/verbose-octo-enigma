@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Образовательный проект для дошкольников Петропавловска — игры, конспекты, беседы, презентации о родном городе">
+  <title>Мой Петропавловск — Образовательный проект для дошкольников</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ПРЕЛОАДЕР -->
+<div class="preloader" id="preloader">
+  <div class="preloader-content">
+    <div class="preloader-logo">🎓</div>
+    <div class="preloader-text">Загрузка...</div>
+    <div class="preloader-bar"><div class="preloader-progress"></div></div>
+  </div>
+</div>
+
+<header class="header" id="header">
+  <div class="container">
+    <div class="header-content">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🎓</div>
+        <div class="logo-text">
+          <div class="logo-title">Университет Козыбаева</div>
+          <div class="logo-subtitle">Мой Петропавловск</div>
+        </div>
+      </a>
+      
+      <button class="mobile-menu-btn" id="mobileMenuBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <nav class="nav" id="mainNav">
+        <a href="index.html" class="nav-link active"><span>🏠</span> Главная</a>
+        <a href="sights.html" class="nav-link"><span>🏙️</span> Достопримечательности</a>
+        <a href="methodical.html" class="nav-link"><span>📚</span> Методическая копилка</a>
+        <a href="talks.html" class="nav-link"><span>💬</span> Беседы</a>
+        <a href="games.html" class="nav-link"><span>🎮</span> Игры</a>
+        <a href="presentations.html" class="nav-link"><span>📊</span> Презентации</a>
+        <a href="contacts.html" class="nav-link"><span>📍</span> Контакты</a>
+      </nav>
+      
+      <div class="lang-switch">
+        <button class="lang-btn active" data-lang="ru">RU</button>
+        <button class="lang-btn" data-lang="kz">KZ</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-badge">🎓 Дипломный образовательный проект 2025</div>
+      <h1 class="hero-title">Путешествие в мир знаний с детьми Петропавловска</h1>
+      <p class="hero-subtitle">Интерактивная платформа для воспитателей, родителей и детей. Конспекты, игры, беседы и всё о родном городе.</p>
+      <div class="hero-btns">
+        <a href="methodical.html" class="btn btn-primary"><span>📚</span> Методические материалы</a>
+        <a href="games.html" class="btn btn-outline"><span>🎮</span> Играть онлайн</a>
+      </div>
+    </div>
+    
+    <div class="stats">
+      <div class="stat"><div class="stat-icon">📚</div><div class="stat-num" data-count="15">15</div><div class="stat-label">Конспектов</div></div>
+      <div class="stat"><div class="stat-icon">💬</div><div class="stat-num" data-count="10">10</div><div class="stat-label">Бесед</div></div>
+      <div class="stat"><div class="stat-icon">🎮</div><div class="stat-num" data-count="20">20</div><div class="stat-label">Игр</div></div>
+      <div class="stat"><div class="stat-icon">📊</div><div class="stat-num" data-count="12">12</div><div class="stat-label">Презентаций</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sections">
+  <div class="container">
+    <h2 class="section-title">Разделы проекта</h2>
+    <p class="section-desc">Выберите нужный раздел — все материалы доступны и структурированы</p>
+    
+    <div class="sections-grid">
+      <a href="sights.html" class="card">
+        <div class="card-icon">🏙️</div>
+        <h3>Достопримечательности</h3>
+        <p>9 мест Петропавловска с фото и описаниями</p>
+        <div class="card-tags"><span>Фото</span><span>История</span></div>
+      </a>
+      
+      <a href="methodical.html" class="card">
+        <div class="card-icon">📚</div>
+        <h3>Методическая копилка</h3>
+        <p>Конспекты ОД, рекомендации воспитателям и родителям</p>
+        <div class="card-tags"><span>15 конспектов</span><span>PDF</span></div>
+      </a>
+      
+      <a href="talks.html" class="card">
+        <div class="card-icon">💬</div>
+        <h3>Полезные беседы</h3>
+        <p>О правилах поведения в музее, на улице, в театре</p>
+        <div class="card-tags"><span>10 бесед</span><span>Сценарии</span></div>
+      </a>
+      
+      <a href="games.html" class="card card-featured">
+        <div class="featured-badge">⭐ Популярное</div>
+        <div class="card-icon">🎮</div>
+        <h3>Интерактивные игры</h3>
+        <p>Викторина, память, цвета — играй прямо в браузере!</p>
+        <div class="card-tags"><span>Онлайн</span><span>Для занятий</span></div>
+      </a>
+      
+      <a href="presentations.html" class="card">
+        <div class="card-icon">📊</div>
+        <h3>Презентации</h3>
+        <p>Готовые презентации по краеведению и культуре</p>
+        <div class="card-tags"><span>12 PPTX</span><span>Скачать</span></div>
+      </a>
+      
+      <a href="contacts.html" class="card">
+        <div class="card-icon">📍</div>
+        <h3>Контакты</h3>
+        <p>Свяжитесь с нами, задайте вопросы</p>
+        <div class="card-tags"><span>Форма</span><span>FAQ</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="features">
+  <div class="container">
+    <div class="features-grid">
+      <div class="feature"><div class="feature-icon">🌐</div><h3>3 языка</h3><p>Русский, казахский и английский</p></div>
+      <div class="feature"><div class="feature-icon">📱</div><h3>Адаптивный</h3><p>Работает на всех устройствах</p></div>
+      <div class="feature"><div class="feature-icon">⚡</div><h3>Быстрый</h3><p>Мгновенная загрузка</p></div>
+      <div class="feature"><div class="feature-icon">🎨</div><h3>Красивый</h3><p>Премиум-дизайн</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- О ПРОЕКТЕ -->
+<section class="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-content">
+        <span class="about-badge">О проекте</span>
+        <h2 class="about-title">Образовательная платформа для дошкольников</h2>
+        <p class="about-text">Наш проект создан студентами Университета имени М. Козыбаева в рамках дипломной работы. Мы разработали комплексную платформу для ознакомления дошкольников с родным городом Петропавловском.</p>
+        <ul class="about-list">
+          <li><span class="about-check">✓</span> Методические материалы для воспитателей</li>
+          <li><span class="about-check">✓</span> Рекомендации для родителей</li>
+          <li><span class="about-check">✓</span> Интерактивные игры для детей</li>
+          <li><span class="about-check">✓</span> Готовые конспекты и презентации</li>
+        </ul>
+        <div class="about-btns">
+          <a href="methodical.html" class="btn btn-primary"><span>📚</span> Начать обучение</a>
+          <a href="contacts.html" class="btn btn-outline-dark"><span>📧</span> Связаться</a>
+        </div>
+      </div>
+      <div class="about-image">
+        <div class="about-card about-card-1">
+          <div class="about-card-icon">🎓</div>
+          <div class="about-card-text">
+            <div class="about-card-num">270+</div>
+            <div class="about-card-label">Лет истории города</div>
+          </div>
+        </div>
+        <div class="about-card about-card-2">
+          <div class="about-card-icon">👨‍🏫</div>
+          <div class="about-card-text">
+            <div class="about-card-num">50+</div>
+            <div class="about-card-label">Материалов</div>
+          </div>
+        </div>
+        <div class="about-card about-card-3">
+          <div class="about-card-icon">🏙️</div>
+          <div class="about-card-text">
+            <div class="about-card-num">9</div>
+            <div class="about-card-label">Достопримечательностей</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ПРИЗЫВ К ДЕЙСТВИЮ -->
+<section class="cta">
+  <div class="container">
+    <div class="cta-content">
+      <h2 class="cta-title">Готовы начать путешествие в мир знаний?</h2>
+      <p class="cta-text">Присоединяйтесь к нашему образовательному проекту прямо сейчас!</p>
+      <div class="cta-btns">
+        <a href="games.html" class="btn btn-primary btn-large"><span>🎮</span> Играть онлайн</a>
+        <a href="methodical.html" class="btn btn-outline btn-large"><span>📚</span> Смотреть материалы</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">
+          <div class="footer-logo-icon">🎓</div>
+          <div><div class="footer-logo-title">Университет Козыбаева</div><div class="footer-logo-sub">Образовательный проект</div></div>
+        </div>
+        <p class="footer-text">Дипломный образовательный проект для дошкольников Петропавловска, 2025.</p>
+      </div>
+      
+      <div><h4>Разделы</h4><ul><li><a href="index.html">Главная</a></li><li><a href="sights.html">Достопримечательности</a></li><li><a href="methodical.html">Методическая копилка</a></li><li><a href="games.html">Игры</a></li></ul></div>
+      <div><h4>Для кого</h4><ul><li><a href="methodical.html">Воспитателям</a></li><li><a href="methodical.html">Родителям</a></li><li><a href="games.html">Детям</a></li></ul></div>
+      <div><h4>Контакты</h4><ul class="footer-contacts"><li><span>📍</span> г. Петропавловск</li><li><span>📧</span> info@nkzu.kz</li><li><span>📞</span> +7 (7152) 46-14-14</li></ul></div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>© 2025 Университет имени М. Козыбаева. Все права защищены.</p>
+      <p>Дипломный проект · г. Петропавловск</p>
+    </div>
+  </div>
+</footer>
+
+<button class="scroll-top" id="scrollTop">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
